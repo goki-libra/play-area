@@ -1,6 +1,6 @@
 package treetraversal;
 
-public class BinaryTreeApp {
+public class BinaryTreeTestApp {
 	
 	public static void main(String args[]){
 		Node leaf1 = new Node(null, null, 1);
@@ -17,10 +17,7 @@ public class BinaryTreeApp {
 		tree.addNode(leaf2);
 		tree.addNode(leaf3);
 		tree.addNode(leaf4);
-//		tree.printTree();
-		System.out.println(TreeTraversalImplementation.countNodes(root));
-//		System.out.println(TreeTraversalImplementation.countNodeValues(root));
-//		System.out.println(BinarySearchTreeImpl.isBinarySearchTree(root));
+		tree.printTree();
 
 	}
 
