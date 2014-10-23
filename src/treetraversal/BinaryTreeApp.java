@@ -18,7 +18,10 @@ public class BinaryTreeApp {
 		tree.addNode(leaf3);
 		tree.addNode(leaf4);
 //		tree.printTree();
-		TreeTraversalImplementation.dfs(tree);
+		System.out.println(TreeTraversalImplementation.countNodes(root));
+//		System.out.println(TreeTraversalImplementation.countNodeValues(root));
+//		System.out.println(BinarySearchTreeImpl.isBinarySearchTree(root));
+
 	}
 
 }

@@ -14,6 +14,13 @@ public class Node {
 		this.state = State.Unvisited;
 	}
 	
+	public boolean isLeaf(){
+		if (this.leftChild == null && this.rightChild == null){
+			return true;
+		}
+		return false;
+	}
+	
 	@Override
 	public String toString(){
 		StringBuffer string = new StringBuffer();
